@@ -18,6 +18,7 @@
     color: #212529;
     background-color: #d7da94;
     border-color: #d7da94;
+    clip-path: polygon(7% 0, 93% 0, 100% 50%, 93% 100%, 7% 100%, 0 50%);
   }
   
   .btn-custom:hover {
