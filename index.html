@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo de Sidebar con Bootstrap 5</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="assets/vendor/MDI/CSS/materialdesignicons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/vendor/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/CSS/nav.css">
+    <link rel="stylesheet" href="assets/CSS/index.css">
+</head>
+
+<body>
+    <!-- navbar -->
+
+
+    <nav class="navbar navbar-expand-md mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="img-fluid logo" src="assets/img/Test-Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar"
+                aria-controls="sidebar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="d-none d-md-flex justify-content-evenly flex-wrap m-5">
+        <a class="btn btn-primary m-2" type="button">HOME</a>
+        <a class="btn btn-primary m-2" type="button">ABOUT US</a>
+        <a class="btn btn-primary m-2" type="button">TOKEN</a>
+        <a class="btn btn-primary m-2" type="button">NFT</a>
+        <a class="btn btn-primary m-2" type="button">ROADMAP</a>
+        <a class="btn btn-primary m-2" type="button">PARTNERS</a>
+        <a class="btn btn-primary m-2" type="button">FAQ</a>
+        <a class="btn btn-primary m-2" type="button">DOCS</a>
+        <a class="btn btn-primary m-2" type="button">APP</a>
+        <a class="btn btn-primary m-2" type="button"><span class="mdi mdi-twitter"></span></a>
+        <a class="btn btn-primary m-2" type="button"><span class="mdi mdi-instagram"></span></a>
+    </div>
+
+    <!-- Botón para activar el sidebar -->
+
+
+    <!-- Contenido principal de la página -->
+    <div class="container d-flex flex-column justify-content-center py-3">
+        <h1>Content</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            nostrum architecto, recusandae tempore doloremque fugit quos laborum
+            harum quae! Hic, totam? Doloremque, iste. Necessitatibus, eum. Inventore
+            accusantium minus nisi atque.
+        </p>
+        <img class="img-fluid mb-5" src="assets/img/Cityscape.png">
+        <h3 class="mx-auto">Other sections of the website</h3>
+        <div class="justify-content-evenly flex-wrap m-5 d-sm-none d-md-flex">
+            <a class="btn btn-primary m-2" type="button">ABOUT US</a>
+            <a class="btn btn-primary m-2" type="button">TELEGRAM GROUP</a>
+            <a class="btn btn-primary m-2" type="button">GIVEAWAY</a>
+            <a class="btn btn-primary m-2" type="button">PRESALE</a>
+        </div>
+    </div>
+
+    <!-- Contenido del sidebar -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+        <div class="offcanvas-header">
+            <img class="img-fluid logo" src="assets/img/Test-Logo.png">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Side Content</p>
+            <div class="d-flex flex-column justify-content-evenly m-5">
+                <a class="btn btn-primary m-2" type="button">HOME</a>
+                <a class="btn btn-primary m-2" type="button">ABOUT US</a>
+                <a class="btn btn-primary m-2" type="button">TOKEN</a>
+                <a class="btn btn-primary m-2" type="button">NFT</a>
+                <a class="btn btn-primary m-2" type="button">ROADMAP</a>
+                <a class="btn btn-primary m-2" type="button">PARTNERS</a>
+                <a class="btn btn-primary m-2" type="button">FAQ</a>
+                <a class="btn btn-primary m-2" type="button">DOCS</a>
+                <a class="btn btn-primary m-2" type="button">APP</a>
+                <a class="btn btn-primary m-2" type="button"><span class="mdi mdi-twitter"></span></a>
+                <a class="btn btn-primary m-2" type="button"><span class="mdi mdi-instagram"></span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="assets/vendor/Bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
