@@ -94,9 +94,12 @@
   #c5c1{
     margin-bottom: 50px;
   }
-  .textbox{
+  .roadmap-bg{
     background-image: url(../img/Roadmap-bg.png);
     background-size: 100% 100%;
     background-position: center;
-    line-height : 20px;
   }
+  .textbox{
+    line-height: 30px;
+  }
+  
