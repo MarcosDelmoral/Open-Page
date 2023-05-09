@@ -9,8 +9,6 @@
   }
   body{
     background-color: #fdffd5; 
-    --animate-duration: 800ms;
-    --animate-delay: 0.9s;
     color: #4f5033;
   }
 
@@ -49,30 +47,31 @@
     background-color: #c8cb7f;
     border-color: #c1c47a;
   }
-  
+  #c1 {
+    animation-duration: 2s;
+
+  }
   #c2 {
 
     background-color: #f5fa8d!important;
-    --animate-duration: 2000ms;
-    --animate-delay: 2s;
+
+    animation-delay: 1s;
+    animation-duration: 2s;
 
   }
   #c4 {
 
     background-color: #d7da94!important;
-    --animate-duration: 2000ms;
-    --animate-delay: 4s;
+    animation-delay: 3s;
+    animation-duration: 4s;
   }
   #c3 {
-
-    --animate-duration: 2000ms;
-    --animate-delay: 3s;
+    animation-delay: 2s;
+    animation-duration: 3s;
 
   } #c5 {
-
-    --animate-duration: 2000ms;
-    --animate-delay: 5s;
-
+    animation-duration: 5s;
+    animation-delay: 4s;
   }
 
   #c2c2{
