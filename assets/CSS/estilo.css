@@ -49,7 +49,25 @@
   #c2 {
 
     background-color: #f5fa8d!important;
-    
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+
+  }
+  #c4 {
+
+    background-color: #d7da94!important;
+    --animate-duration: 2000ms;
+    --animate-delay: 4s;
+  }
+  #c3 {
+
+    --animate-duration: 2000ms;
+    --animate-delay: 3s;
+
+  } #c5 {
+
+    --animate-duration: 2000ms;
+    --animate-delay: 5s;
 
   }
 
@@ -66,11 +84,7 @@
     border: solid;
     margin-bottom: 50px;
   }
-  #c4 {
 
-    background-color: #d7da94!important;
-
-  }
   #c4c2{
     border: solid;
     margin-bottom: 50px;
