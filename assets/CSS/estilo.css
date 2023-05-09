@@ -61,7 +61,7 @@
   }
   #c4 {
 
-    background-color: #d7da94!important;
+    /* background-color: #d7da94!important; */
     animation-delay: 3s;
     animation-duration: 4s;
   }
@@ -89,11 +89,11 @@
   }
 
   #c4c2{
-    border: solid;
+    /* border: solid; */
     margin-bottom: 50px;
   }
   #c4c1{
-    border: solid;
+    /* border: solid; */
     margin-bottom: 50px;
   }
   #c5c2{
@@ -103,4 +103,9 @@
   #c5c1{
     border: solid;
     margin-bottom: 50px;
+  }
+  .textbox{
+    background-image: url(../img/Roadmap-bg.png);
+    background-size: 100% 100%;
+    background-position: center;
   }
