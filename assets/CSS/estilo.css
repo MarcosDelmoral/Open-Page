@@ -170,6 +170,12 @@ color: #dedd8c !important;
 .presale{
   color: #535233 !important;
 }
+.enf-color{
+  color: #ab5831 !important;
+}
 .coin{
   height: 50%;
+}
+.separador{
+  border-bottom: 1px solid #ab5831;
 }
