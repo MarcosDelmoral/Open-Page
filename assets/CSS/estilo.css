@@ -182,3 +182,6 @@ color: #dedd8c !important;
 .sponsor{
   height: 75px;
 }
+.team{
+  max-width: 500px;
+}
