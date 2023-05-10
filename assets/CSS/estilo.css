@@ -195,4 +195,13 @@ button{
   .coin{
     height: 50%;
   }
+
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 100%;
+}
+
+@media (min-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 100%;
 }
