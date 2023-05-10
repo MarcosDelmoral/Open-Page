@@ -145,10 +145,24 @@ h1,h2,h3,h4,h5,h6,ul {
   background-size: 100% 100%;
   background-position: center;
 }
+.tokenomics-bg {
+  background-image: url(../img/tokenomics-bg.png);
+  background-size: 100% 100%;
+  background-position: center;
+}
 
 .textbox {
   line-height: 30px;
 }
 .textbox-2 {
   line-height: 35px;
+}
+.cex{
+color: #1b1c0a !important;
+}
+.liquidity{
+color: #dedd8c !important;
+}
+.presale{
+  color: #535233 !important;
 }

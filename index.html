@@ -18,18 +18,19 @@
 <body>
     <main id="principal" class="d-none">
 
-        <nav class="navbar navbar-expand-md mb-4">
+        <nav class="navbar navbar-expand-lg mb-4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="img-fluid logo" src="assets/img/Logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar"
                     aria-controls="sidebar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="d-none d-md-flex justify-content-evenly flex-wrap">
+                <div class="d-none d-lg-flex justify-content-evenly flex-wrap">
                     <a class="btn btn-custom m-2" type="button" href="#c3">TOKENOMICS</a>
                     <a class="btn btn-custom m-2" type="button" href="#c4">ROADMAP</a>
                     <a class="btn btn-custom m-2" type="button" href="#c5">HOW TO BUY</a>
-                    <a class="btn btn-custom m-2" type="button">DEXTOOLS</a>
+                    <a class="btn btn-custom m-2" type="button" href="#c6">OUR TEAM</a>
+                    <a class="btn btn-custom m-2" type="button">DEXVIEW</a>
                     <a class="btn btn-custom m-2" type="button"><span class="fa-brands fa-twitter"></span></a>
                     <a class="btn btn-custom m-2" type="button"><span class="fa-brands fa-telegram"></span></a>
                 </div>
@@ -44,9 +45,15 @@
             </div>
             <div class="offcanvas-body">
                 <div class="d-flex flex-column m-2">
-                    <div><a class="btn btn-custom" type="button" data-bs-dismiss="offcanvas" onclick="vista('c3')">TOKENOMICS</a></div>
-                    <div><a class="btn btn-custom" type="button" data-bs-dismiss="offcanvas" onclick="vista('c4')">ROADMAP</a></div>
-                    <div><a class="btn btn-custom" type="button" data-bs-dismiss="offcanvas" onclick="vista('c5')">HOW TO BUY</a></div>
+                    <div><a class="btn btn-custom" type="button" data-bs-dismiss="offcanvas"
+                            onclick="vista('c3')">TOKENOMICS</a></div>
+                    <div><a class="btn btn-custom" type="button" data-bs-dismiss="offcanvas"
+                            onclick="vista('c4')">ROADMAP</a></div>
+                    <div><a class="btn btn-custom" type="button" data-bs-dismiss="offcanvas"
+                            onclick="vista('c5')">HOW TO BUY</a></div>
+                    <div><a class="btn btn-custom" type="button" data-bs-dismiss="offcanvas"
+                            onclick="vista('c6')">OUR TEAM</a></div>
+                    <div><a class="btn btn-custom" type="button" href="">DEXVIEW</a></div>
                     <div><a class="btn btn-custom" type="button"><span class="fa-brands fa-twitter"></span></a></div>
                     <div><a class="btn btn-custom" type="button"><span class="fa-brands fa-telegram"></span></a></div>
                 </div>
@@ -74,8 +81,33 @@
         </div>
 
         <div id="c3" class="container-fluid row w-100 m-0 ">
-            <h2 id="t2" class="text-center">TOKENOMICS</h2>
-            <div id="c3c" class="col" style="height: 200px;">
+            <h2 id="t2" class="text-center mb-5">TOKENOMICS</h2>
+            <div id="c3c1" class="col-lg-5 col-md-12 container p-3 d-flex align-items-center">
+                <img class="img-fluid mx-auto" src="assets/img/Tokenomics.png">
+            </div>
+            <div id="c3c2" class="col-lg-6 col-md-12 container d-flex flex-column p-3">
+                <div class="textbox flex-grow-1 m-2">
+                    Our tokenomics system is specifically designed to
+                    build strong partnerships over time that will allow us
+                    to increase the currency's exposure to new investors.
+                    5% of our supply will be allocated to build these
+                    partnerships. We are a 0/0 tax token. Zero. Nada.
+                </div>
+                <div class="textbox tokenomics-bg flex-grow-1 m-2 d-flex flex-column p-3">
+                    <h3 class="my-auto f-Sigmar">
+                        50% BURN
+                    </h3>
+                    <h3 class="my-auto cex">
+                        5% CEX LISTINGS
+                    </h3>
+                    <h3 class="my-auto liquidity">
+                        35% LIQUIDITY POOL
+                    </h3>
+                    <h3 class="my-auto presale">
+                        10% PRESALE
+                    </h3>
+                </div>
+
             </div>
         </div>
 
@@ -129,7 +161,7 @@
                             <span>Pepe full-body jammies.</span>
                         </li>
                         <li>
-                            <span>Tier 1 CEX linstings.</span>
+                            <span>Tier 1 CEX listings.</span>
                         </li>
                         <li>
                             <span>+15000 holders.</span>
@@ -144,6 +176,14 @@
             <div id="c5c1" class="col-md-5 col-sm-12 container p-3" style="height: 200px;">
             </div>
             <div id="c5c2" class="col-md-5 col-sm-12 container p-3" style="height: 200px;">
+            </div>
+        </div>
+
+        <div id="c6" class="container-fluid row w-100 m-0 ">
+            <h2 id="t5" class="text-center">OUR TEAM</h2>
+            <div id="c6c1" class="col-md-5 col-sm-12 container p-3" style="height: 200px;">
+            </div>
+            <div id="c6c2" class="col-md-5 col-sm-12 container p-3" style="height: 200px;">
             </div>
         </div>
 
