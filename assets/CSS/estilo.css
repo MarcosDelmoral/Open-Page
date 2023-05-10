@@ -12,6 +12,10 @@
   font-family: 'Gurajada';
   font-size: 125%;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding:90px ;
+}
 
 body {
   width: 90%;
