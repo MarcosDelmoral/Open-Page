@@ -43,6 +43,7 @@ h1,h2,h3,h4,h5,h6,ul {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+  transition: 0.3s;
   /* clip-path: polygon(7% 0, 93% 0, 100% 50%, 93% 100%, 7% 100%, 0 50%); */
 }
 .btn-custom:hover {
@@ -51,6 +52,7 @@ h1,h2,h3,h4,h5,h6,ul {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+  animation-duration: 1s;
 }
 
 .btn-custom:focus,
