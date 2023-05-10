@@ -181,7 +181,16 @@ color: #dedd8c !important;
 }
 .sponsor{
   height: 75px;
+  margin-bottom: 1em;
 }
 .team{
   max-width: 500px;
+}
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icono-t{
+  line-height: 100%;
 }
