@@ -7,7 +7,7 @@ function main() {
 function vista(elemento) {
     setTimeout(() => {
         console.log(elemento)
-        elemento.scrollIntoView('true');
+        document.getElementById(elemento).scrollIntoView('true');
     }, 380);
 };
 
