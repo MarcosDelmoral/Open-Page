@@ -12,9 +12,10 @@
   font-family: 'Gurajada';
   font-size: 125%;
 }
+
 html {
   scroll-behavior: smooth;
-  scroll-padding:0px ;
+  scroll-padding: 0px;
 }
 
 body {
@@ -25,7 +26,8 @@ body {
   background-color: #fdffd5;
   color: #4f5033;
 }
-span{
+
+span {
   color: #4f5033;
 }
 
@@ -33,15 +35,18 @@ h1,h2,h3,h4,h5,h6,ul {
   color: #ab5831 !important;
   font-family: 'Sigmar';
 }
-.navbar-toggler-icon{
- font-size: 70%;
+
+.navbar-toggler-icon {
+  font-size: 70%;
 }
-.offcanvas{
+
+.offcanvas {
   background-color: #fdffd5;
   line-height: 25px;
   max-height: 100vh;
 }
-.offcanvas a{
+
+.offcanvas a {
   font-size: 80%;
 }
 
@@ -58,6 +63,7 @@ h1,h2,h3,h4,h5,h6,ul {
   transition: 0.3s;
   /* clip-path: polygon(7% 0, 93% 0, 100% 50%, 93% 100%, 7% 100%, 0 50%); */
 }
+
 .btn-custom:hover {
   color: #212529;
   background: url(../img/btn_st2.png);
@@ -84,7 +90,7 @@ h1,h2,h3,h4,h5,h6,ul {
 .show>.btn-custom.dropdown-toggle {
   color: #212529;
   border-color: #c2c47a00;
-} 
+}
 
 #c1 {
   animation-duration: 2s;
@@ -146,6 +152,7 @@ h1,h2,h3,h4,h5,h6,ul {
   background-size: 100% 100%;
   background-position: center;
 }
+
 .tokenomics-bg {
   background-image: url(../img/Tokenomics-bg.png);
   background-size: 100% 100%;
@@ -155,53 +162,73 @@ h1,h2,h3,h4,h5,h6,ul {
 .textbox {
   line-height: 25px;
 }
+
 .textbox-2 {
   line-height: 30px;
 }
+
 .textbox-3 {
   line-height: 35px;
 }
-.cex{
-color: #1b1c0a !important;
+
+.cex {
+  color: #1b1c0a !important;
 }
-.liquidity{
-color: #dedd8c !important;
+
+.liquidity {
+  color: #dedd8c !important;
 }
-.presale{
+
+.presale {
   color: #535233 !important;
 }
-.enf-color{
+
+.enf-color {
   color: #ab5831 !important;
 }
-.separador{
+
+.separador {
   border-bottom: 1px solid #ab5831;
 }
-.sponsor{
+
+.sponsor {
   height: 75px;
   margin-bottom: 1em;
 }
-.team{
+
+.team {
   max-width: 500px;
 }
-button{
+
+button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.icono-t{
+
+.icono-t {
   line-height: 100%;
 }
-@media (min-width: 992px){
-  .coin{
+
+@media (min-width: 992px) {
+  .coin {
     height: 50%;
   }
-
-@media (min-width: 576px)
-.container, .container-sm {
-    max-width: 100%;
 }
 
-@media (min-width: 768px)
-.container, .container-md, .container-sm {
+@media (min-width: 576px) {
+
+  .container,
+  .container-sm {
     max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 100%;
+  }
 }
