@@ -91,6 +91,10 @@ h1,h2,h3,h4,h5,h6,ul {
   color: #212529;
   border-color: #c2c47a00;
 }
+.fixed-bottom {
+  right: 20px!important;
+  bottom: 20px!important;
+}
 #btntop {
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
