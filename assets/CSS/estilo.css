@@ -29,6 +29,9 @@ h1,h2,h3,h4,h5,h6,ul {
   color: #ab5831 !important;
   font-family: 'Sigmar';
 }
+.offcanvas{
+  background-color: #fdffd5;
+}
 
 .logo {
   max-height: 60px;
