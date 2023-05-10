@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5,h6,ul {
 .offcanvas{
   background-color: #fdffd5;
   line-height: 25px;
+  max-height: 100vh;
 }
 .offcanvas a{
   font-size: 80%;
@@ -152,9 +153,12 @@ h1,h2,h3,h4,h5,h6,ul {
 }
 
 .textbox {
-  line-height: 30px;
+  line-height: 25px;
 }
 .textbox-2 {
+  line-height: 30px;
+}
+.textbox-3 {
   line-height: 35px;
 }
 .cex{
@@ -165,4 +169,7 @@ color: #dedd8c !important;
 }
 .presale{
   color: #535233 !important;
+}
+.coin{
+  height: 50%;
 }
