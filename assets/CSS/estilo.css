@@ -29,6 +29,7 @@ span {
 h1,h2,h3,h4,h5,h6,ul {
   color: #ab5831 !important;
   font-family: 'Sigmar';
+  font-size: calc(1.6rem + 1.5vw);
 }
 ul{
   font-size: 130%;
