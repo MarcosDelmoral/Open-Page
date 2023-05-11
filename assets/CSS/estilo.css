@@ -225,6 +225,9 @@ h1,h2,h3,h4,h5,h6{
   height: 75px;
   margin-bottom: 1em;
 }
+.cmc {
+  height: 60px;
+}
 
 .team {
   max-width: 500px;
