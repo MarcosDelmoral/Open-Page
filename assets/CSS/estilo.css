@@ -8,11 +8,6 @@
   src: url('../vendor/Fonts/Sigmar/Sigmar-Regular.ttf') format('truetype');
 }
 
-* {
-  font-family: 'Gurajada';
-  font-size: 125%;
-}
-
 html {
   scroll-behavior: smooth;
   scroll-padding: 0px;
@@ -34,6 +29,18 @@ span {
 h1,h2,h3,h4,h5,h6,ul {
   color: #ab5831 !important;
   font-family: 'Sigmar';
+}
+
+p {
+  font-family: 'Gurajada';
+  font-size: 255%;
+}
+
+a {
+  font-family: 'Gurajada';
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-toggler-icon {
@@ -226,12 +233,6 @@ h1,h2,h3,h4,h5,h6,ul {
 
 .team {
   max-width: 500px;
-}
-
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .icono-t {
