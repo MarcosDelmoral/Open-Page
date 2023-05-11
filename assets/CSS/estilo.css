@@ -276,4 +276,7 @@ button {
   .textbox-2,.textbox-3{
     line-height: 25px;
   }
+  .sidebutton{
+    font-size: 50% !important;
+  }
 }
