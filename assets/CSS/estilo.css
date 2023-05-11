@@ -8,6 +8,11 @@
   src: url('../vendor/Fonts/Sigmar/Sigmar-Regular.ttf') format('truetype');
 }
 
+* {
+  font-family: 'Gurajada';
+  font-size: 125%;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding: 0px;
@@ -25,40 +30,10 @@ body {
 span {
   color: #4f5033;
 }
-h1{
-  font-size: 3rem;
-}
-h2{
-  font-size: 3rem;
-}
+
 h1,h2,h3,h4,h5,h6,ul {
   color: #ab5831 !important;
-}
-h1,h2,h3,h4,h5,h6 {
   font-family: 'Sigmar';
-}
-
-p, ul {
-  font-family: 'Gurajada';
-  font-size: 2.5rem;
-}
-
-a {
-  font-family: 'Gurajada' !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-a.btnside {
-  font-size: 200% !important;
-}
-a.btnnavicon {
-  font-size: 150% !important;
-  line-height: 5px;
-  
-}
-a:not(.btnside):not(.btnsideicon):not(.btnnavicon){
-  font-size: 110% !important;
 }
 
 .navbar-toggler-icon {
@@ -253,6 +228,12 @@ a:not(.btnside):not(.btnsideicon):not(.btnnavicon){
   max-width: 500px;
 }
 
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .icono-t {
   line-height: 100%;
 }
@@ -277,5 +258,11 @@ a:not(.btnside):not(.btnsideicon):not(.btnnavicon){
   .container-md,
   .container-sm {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .coinp{
+    font-size: 95% !important;
   }
 }
