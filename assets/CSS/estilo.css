@@ -31,8 +31,10 @@ span {
   color: #4f5033;
 }
 
-h1,h2,h3,h4,h5,h6,ul {
+h1,h2,h3,h4,h5,h6,ul{
   color: #ab5831 !important;
+}
+h1,h2,h3,h4,h5,h6{
   font-family: 'Sigmar';
 }
 
@@ -264,5 +266,14 @@ button {
 @media (max-width: 991.98px) {
   .coinp{
     font-size: 95% !important;
+  }
+  .ally{
+    font-size: 75% !important;
+  }
+  .phasessp{
+    font-size: 95% !important;
+  }
+  .textbox-2,.textbox-3{
+    line-height: 25px;
   }
 }
